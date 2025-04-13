@@ -1,4 +1,4 @@
-function userdata(){
+function userdata('URL'){
     fetch('URL')
     .then(res =>res.json())
 }
