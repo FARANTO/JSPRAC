@@ -1,5 +1,5 @@
 function userdata('AS'){
-    fetch('AS')
+    fetch('URL')
     .then(res =>res.json())
 }
 console.log('first.js');
