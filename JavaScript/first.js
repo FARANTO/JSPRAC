@@ -1,5 +1,6 @@
 function userdata('AS'){
-    fetch('URL')
-    .then(res =>res.json())
+    fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data))
 }
 console.log('first.js');
